@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Big Noodles';
+  src: url('../fonts/big_noodle_titling.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+$color-red: rgb(255, 20, 20);
+
+p {
+  color: $color-red;
+  font-family: 'Big Noodles';
+}
+
+body {
+  background-image: url('../images/cat.jpg');
+}
